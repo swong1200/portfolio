@@ -1,6 +1,12 @@
 body {
     background-color: seagreen;
 }
-.navbar li {
-    float: right;
+#stu {
+  margin: 0, 0, 10, 10;
 }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
